@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1400px;
+    height: 1950px;
+    margin: 0 auto;
+}
+
+
+/***top section***/
+
+
+.topsection {
+    background: url("../img/topsection_img.png");
+    height: 768px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+    
+header {
+    height: 110px;
+    margin: 0 auto;
+}
+
+header h2 {
+    height: 110px;
+    margin-top: 30px;
+    padding-left: 115px;
+    float:left;
+
+} 
+
+header h3 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 900;
+    height: 110px;
+    margin-top: 38px;
+    padding-left: 23px;
+    float:left;
+}
+
+header nav {
+    float: right;
+    padding: 46px 110px;    
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;    
+}
+
+header nav ul li {
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 10px;
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    height: 561px;
+    width: auto;
+}
+
+main h4 {
+    margin-top: 71px;
+    padding-bottom: 0px;
+
+}
+main h1 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+}
+main p {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 21px;
+    
+}
+main nav {
+    float: none;
+    padding: 46px 110px;
+}
+
+main nav ul {
+    margin: 0;
+    padding: 0;    
+}
+
+main nav ul li {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 90px;
+    display: inline;
+}
+.active nav {
+    float: none;
+    padding: 46px 110px;
+}
+.active nav ul {
+    margin: 0;
+    padding: 0;
+}
+.active nav ul li {
+    padding: 8px;
+}
+
+/**** features section****/
+
+.featuresection {
+    height: 783px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.featureheader {
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.featureheader h2 {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 103px;
+    
+}
+
+.featureheader p {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 40px;
+}
+
+/****fourfeatures****/
+
+.featuresone {
+    float: left;
+    overflow: auto;
+    height: auto;
+    width: 669px;
+    text-align: left;
+}
+
+.featurestwo {
+    float: left;
+    overflow: auto;
+    height: auto;
+    width: 700px;
+    text-align: left;
+     
+}
+
+.featuresone h3 {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+
+.featurestwo h3 {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.featuresone p {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.featurestwo p {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.features1 {
+    float: left;
+    padding-top: 36px;
+    margin-left: 207px;
+    padding-right: 27px;    
+}
+
+.features2 {
+    padding-top: 34px;
+    float: left;
+    margin-left: 52px;
+    padding-right: 205px;
+}
+
+.features3 {
+    padding-top: 55px;
+    float: left;
+    margin-left: 217px;
+    padding-right: 58px;
+}
+
+.features4 {
+    padding-top: 54px;
+    float: left;
+    margin-left: 31px;
+    padding-right: 229px;
+}
+
+.features1 img {
+    float: left;
+    padding-top: 19px;
+}
+
+.cash {
+    clear: both;
+    padding-right: 40px;
+}
+
+.features2 img {
+    padding-top: 54px;
+    float: left;
+}
+.mobile {
+    clear: both;
+    padding-right: 44px;
+    padding-top: 26px
+}
+
+.features3 img {
+    float: left;
+}
+
+.support {
+    clear: both;
+    padding-right: 40px;
+}
+
+.features4 img {
+    float: left;    
+}
+.offer {
+    clear: both;
+    padding-right: 40px;
+    padding-top: 19px;
+}
+/*******footer****/
+
+footer {
+    background-color: black;
+    height: 360px;
+    width: auto;
+    text-align: left;
+
+}
+
+footer h2 {
+    height: 110px;
+    margin-top: 30px;
+    padding-left: 115px;
+    padding-top: 88px;
+}
+
+footer nav {
+    float: right;
+    padding: 46px 322px;
+    padding-top: 0px;
+}
+
+footer nav ul {
+    margin: 0;
+    padding: 0;    
+}
+
+footer nav ul li {
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 10px;
+    display: grid;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer h3 {
+    
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 900;
+    margin-left: 176px;
+    margin-top: -15px;
+    padding-left: 10px;
+    float: left;
+}
+footer p {
+    color: rgb(176, 176, 176);
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 113px;
+    margin-top: 53px;
+    line-height: 24px;
+}
+
+footer h5 {
+    color: rgb(176, 176, 176);
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 112px;
+    margin-top: 25px;
+}
+
+}
+
+
+
+}
