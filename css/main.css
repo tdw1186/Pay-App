@@ -91,6 +91,25 @@ textarea {
    general styles
 ================================================== */
 
+
+header,
+main,
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+header .content-wrapper,
+main .content-wrapper {
+  width: 75%;
+}
+
+header nav {
+  padding: 0;
+}
+
 html {
   font-size: 16px;
 }
@@ -119,10 +138,6 @@ h3 {
   font-weight: 400;
 }
 
-img {
-  width: 100%;
-}
-
 figure {
   margin: 0;
 }
@@ -136,8 +151,44 @@ figure {
    header styles
 ================================================== */
 
-header,
-footer {
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  color: white;
+}
+
+header .payapp {
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+p.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  padding: 0;
+}
+
+header nav ul li {
+  font-size: 1.125rem;
+}
+
+div .sub-nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,6 +196,155 @@ footer {
 }
 
 
+/* ==================================================
+ footer styles
+================================================== */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .footer-info {
+  width: 80%;
+  height: 400px;
+}
+
+footer figure {
+  margin-top: 100px;
+}
+
+footer figure {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+footer .social-icons li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .social-icons li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
+footer .copyright {
+  font-size: .75rem;
+}
+
+
+
+/* ==========================================================================
+ margin styles
+   ========================================================================== */
+
+/* =======================================
+ header styles
+   ========================================== */
+
+
+header .payapplogo {
+    margin: 50px 0 0 0;
+  }
+
+header .payapp {
+  margin: 50px 0 0 10px;
+}
+
+header nav {
+  margin: 20px;
+}
+
+header nav ul {
+  margin: 0;
+}
+
+figure .handshakelogo {
+  margin: 0;
+}
+
+header .payments {
+  margin: 20px;
+}
+
+p.header-content {
+  margin: 20px;
+}
+
+div.sub-nav {
+  margin: 20px;
+}
+
+
+
+
+
+/* ==========================================================================
+ mobile styles
+   ========================================================================== */
+
+/* =============================
+ header styles
+   ========================== */
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-image: url(../img/topsection_img.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+
+header .payapplogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  line-height: 1.7rem;
+}
+
+header nav ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .payapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1.payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 3.75rem;
+}
 
 
 
