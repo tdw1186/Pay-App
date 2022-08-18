@@ -180,6 +180,7 @@ p.header-content {
   flex-flow: row wrap;
 }
 
+
 header nav ul {
   padding: 0;
 }
@@ -192,8 +193,9 @@ div .sub-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+
 }
+
 
 
 /* ==================================================
@@ -213,12 +215,12 @@ footer {
 }
 
 footer .footer-info {
-  width: 80%;
+
   height: 400px;
 }
 
 footer figure {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 footer figure {
@@ -247,7 +249,7 @@ footer .social-icons p i {
 }
 
 footer .copyright {
-  font-size: .75rem;
+  font-size: .90rem;
 }
 
 
@@ -270,7 +272,7 @@ header .payapp {
 }
 
 header nav {
-  margin: 20px;
+  margin: 50px;
 }
 
 header nav ul {
@@ -290,7 +292,8 @@ p.header-content {
 }
 
 div.sub-nav {
-  margin: 20px;
+  margin: 30px;
+  padding-right: 40px;
 }
 
 
@@ -345,6 +348,93 @@ h1.payments {
   font-weight: 700;
   font-size: 3.75rem;
 }
+
+p.header-content {
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+
+/* =============================
+ main styles
+   ========================== */
+
+h1.features {
+  font-weight: 700;
+}
+
+h1.features {
+  margin: 40px 0 0 0;
+}
+
+#underline {
+  width: 100%;
+}
+
+div.features-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+div.feature-description {
+  margin: 20px;
+}
+
+.main-content {
+  text-align: left;
+}
+
+.feature-content {
+  text-align: left;
+}
+
+/* =============================
+ footer styles
+   ========================== */
+
+
+.contact {
+  text-align: left;
+  font-weight: 700;
+  margin: 20px 0 0 0;
+}
+
+
+.social {
+  text-align: left;
+  font-weight: 700;
+  margin: 0;
+}
+
+address {
+  text-align: left;
+  font-size: 1rem;
+}
+
+ul.social-icons {
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
