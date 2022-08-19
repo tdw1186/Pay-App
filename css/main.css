@@ -93,8 +93,7 @@ textarea {
 
 
 header,
-main,
-footer {
+main, aside, footer {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -102,9 +101,11 @@ footer {
 }
 
 header .content-wrapper,
-main .content-wrapper {
+main .content-wrapper,
+aside .content-wrapper {
   width: 75%;
 }
+
 
 header nav {
   padding: 0;
@@ -128,15 +129,6 @@ li {
   color: white;
 }
 
-h1 {
-  font-size: 3.75rem;
-  font-weight: 400;
-}
-
-h3 {
-  font-size: 1.75rem;
-  font-weight: 400;
-}
 
 figure {
   margin: 0;
@@ -215,7 +207,6 @@ footer {
 }
 
 footer .footer-info {
-
   height: 400px;
 }
 
@@ -258,9 +249,6 @@ footer .copyright {
  margin styles
    ========================================================================== */
 
-/* =======================================
- header styles
-   ========================================== */
 
 
 header .payapplogo {
@@ -295,9 +283,6 @@ div.sub-nav {
   margin: 30px;
   padding-right: 40px;
 }
-
-
-
 
 
 /* ==========================================================================
@@ -346,7 +331,11 @@ h1.payments {
   justify-content: center;
   align-items: center;
   font-weight: 700;
-  font-size: 3.75rem;
+  font-size: 3rem;
+}
+
+h1.payments {
+  margin: 40px 40px 10px 40px;
 }
 
 p.header-content {
@@ -390,6 +379,31 @@ div.feature-description {
   text-align: left;
 }
 
+
+aside {
+  background-color: #e6e4e4;
+}
+
+.advancedcrm {
+  margin: 50px 0 50px 0;
+}
+
+#ipad {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.financialcrm {
+  font-weight: 700;
+}
+
+.advanced-feature {
+  text-align: left;
+}
+
+
 /* =============================
  footer styles
    ========================== */
@@ -415,29 +429,10 @@ address {
 
 ul.social-icons {
   padding: 0;
-  margin: 5px 0 0 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: space-around;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
@@ -528,9 +523,191 @@ ul.social-icons {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+ /*---------------------------------------------------------------------------
+Tablet Styles
+----------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+/*------------------------------------------------
+  base styles
+  -----------------------------------------------*/
+
+  header .content-wrapper,
+  main .content-wrapper,
+  aside .content-wrapper, footer .content-wrapper{
+  max-width: 640px;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+/*------------------------------------------------
+  Font styles
+  -----------------------------------------------*/
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  p.header-content {
+    text-align: left;
+    font-size: 1.50rem;
+  }
+
+  .sub-nav {
+    font-size: 1.2rem;
+  }
+
+  .main-content {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .content-wrapper h3 {
+    font-size: 1.25rem;
+  }
+
+  .feature-content {
+    font-size: 1.25rem;
+  }
+
+  .advancedcrm {
+    font-size: 1.25rem;
+  }
+
+  .contact {
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 700;
+  }
+
+  .social {
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 700;
+  }
+
+  address {
+    font-size: 1.1rem;
+  }
+
+/*------------------------------------------------
+  header styles
+  -----------------------------------------------*/
+
+    header .payapplogo {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+    }
+
+    header nav {
+      justify-content: flex-end;
+      width: 45%;
+    }
+
+    header nav ul li{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    #handshakelogo {
+      margin: 40px;
+    }
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------
+  Footer styles
+  -----------------------------------------------*/
+
+
+  #footlogo {
+    width: 50%;
+  }
+
+  ul.social-icons {
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer .social-icons li {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------
+Desktop Styles
+------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
