@@ -207,7 +207,7 @@ footer {
 }
 
 footer .footer-info {
-  height: 400px;
+  height: 500px;
 }
 
 footer figure {
@@ -260,16 +260,13 @@ header .payapp {
 }
 
 header nav {
-  margin: 50px;
+  margin: 30px;
 }
 
 header nav ul {
   margin: 0;
 }
 
-figure .handshakelogo {
-  margin: 0;
-}
 
 header .payments {
   margin: 20px;
@@ -335,7 +332,7 @@ h1.payments {
 }
 
 h1.payments {
-  margin: 40px 40px 10px 40px;
+  margin: 0;
 }
 
 p.header-content {
@@ -535,13 +532,12 @@ Tablet Styles
 
   header .content-wrapper,
   main .content-wrapper,
-  aside .content-wrapper, footer .content-wrapper{
+  aside .content-wrapper, footer .content-wrapper {
   max-width: 640px;
+  width: 85%;
   }
 
-  footer {
-    width: 100%;
-  }
+
 
 /*------------------------------------------------
   Font styles
@@ -576,21 +572,7 @@ Tablet Styles
     font-size: 1.25rem;
   }
 
-  .contact {
-    font-size: 1.2rem;
-    text-align: left;
-    font-weight: 700;
-  }
 
-  .social {
-    font-size: 1.2rem;
-    text-align: left;
-    font-weight: 700;
-  }
-
-  address {
-    font-size: 1.1rem;
-  }
 
 /*------------------------------------------------
   header styles
@@ -599,57 +581,115 @@ Tablet Styles
     header .payapplogo {
       display: flex;
       justify-content: flex-start;
-      width: 100%;
+
+    }
+
+    figure.payapplogo {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    figure.payapplogo {
+      margin: 50px 0 30px 0;
     }
 
     header nav {
-      justify-content: flex-end;
-      width: 45%;
+      display: flex;
+      justify-content: center;
+      width: 100%;
     }
 
-    header nav ul li{
+    header nav ul {
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-items: center;
     }
 
-    #handshakelogo {
-      margin: 40px;
+    header nav ul li {
+      padding: 10px;
+    }
+
+    header nav {
+      margin: 20px 0 40px 0;
+    }
+
+    main div.content-wrapper {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    div .sub-nav {
+      margin: 30px 30px 40px 30px;
     }
 
 
+  /*------------------------------------------------
+    Aside styles
+  ----------------------------------------------*/
 
+    aside {
+      margin-top: 20px;
+    }
 
-
-
-
-
+    #ipad {
+      margin-bottom: 40px;
+    }
 
 /*------------------------------------------------
   Footer styles
   -----------------------------------------------*/
 
+  footer figure {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
 
-  #footlogo {
-    width: 50%;
+  footer .footer-info {
+    width: 80%;
+  }
+
+
+  .contact {
+
+    font-weight: 700;
+    margin: 20px 0 0 0;
+    font-size: 1.25rem;
+  }
+
+
+  .social {
+
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.25rem;
+  }
+
+  address {
+
+    font-size: 1.1rem;
   }
 
   ul.social-icons {
-    padding: 0;
+    padding: 0 30px 0 30px;
     margin: 10px 0 0 0;
     display: flex;
     justify-content: space-around;
   }
 
-  footer .social-icons li {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  p.copyright {
+    margin: 30px;
   }
 
 
+  #footlogo {
+    width: 70%;
+  }
 
 
 
@@ -657,31 +697,54 @@ Tablet Styles
 
 
 
+/*------------------------------------------------------------
+Desktop Styles
+------------------------------------------------------------*/
 
 
+/*------------------------------------------------------------
+base sizing
+------------------------------------------------------------*/
 
+@media only screen and (min-width: 1200px) {
 
+  header .content-wrapper,
+  main .content-wrapper,
+  aside .content-wrapper, footer .content-wrapper {
+  max-width: 1450px;
+  width: 90%;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
+/*------------------------------------------------------------
+font Styles
+------------------------------------------------------------*/
 
 
 
 
 /*------------------------------------------------------------
-Desktop Styles
+Header styles
 ------------------------------------------------------------*/
 
-@media only screen and (min-width: 1200px) {
+  figure.payapplogo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
