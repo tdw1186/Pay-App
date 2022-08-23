@@ -697,9 +697,9 @@ Tablet Styles
 
 
 
-/*------------------------------------------------------------
+/*-----------------------------------------------------------------------
 Desktop Styles
-------------------------------------------------------------*/
+------------------------------------------------------------------------*/
 
 
 /*------------------------------------------------------------
@@ -730,7 +730,161 @@ Header styles
     display: flex;
     justify-content: flex-start;
     margin: 0;
+
   }
+
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 0;
+  }
+
+  header nav ul li {
+    padding: 20px;
+
+  }
+
+  header nav ul li:hover {
+    background-color: #ffffff;
+    color: #e75fa9;
+    padding: 10px 10px;
+    border-radius: 30px;
+  }
+
+  h1.payments {
+    margin: 80px 0 20px 0;
+  }
+
+
+  div .sub-nav ul {
+    padding: 30px ;
+}
+
+  p.header-content {
+    width: 80%;
+
+  }
+
+  .sub-nav ul:hover {
+    background-color: #ffffff;
+    color: #e75fa9;
+    padding: 10px 10px;
+    border-radius: 30px;
+  }
+
+
+
+
+
+
+/*------------------------------------------------------------
+features styles
+------------------------------------------------------------*/
+
+
+  h1.features {
+  margin: 80px 0 0 0;
+  }
+
+  #underline {
+  width: 100%;
+  }
+
+  div.features-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  }
+
+  div.features-wrapper {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  p.feature-content {
+    text-align: center;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  div.feature-description {
+  margin: 20px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .feature-content {
+  text-align: left;
+  margin-top: 20px;
+  }
+
+
+
+
+/*------------------------------------------------------------
+aside styles
+------------------------------------------------------------*/
+
+  aside div.content-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .financialcrm {
+    margin: 80px 0 40px 0;
+  }
+
+  .advancedcrm figure {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #ipad {
+    height: 552px;
+    width: 764px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .advanced {
+
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-basis: 33%;
+
+  }
+
+  .advanced h3 {
+    margin: 20px;
+  }
+
+
+
+
+
 
 
 
