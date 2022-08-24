@@ -260,7 +260,7 @@ header .payapp {
 }
 
 header nav {
-  margin: 30px;
+  margin: 45px;
 }
 
 header nav ul {
@@ -675,10 +675,9 @@ Tablet Styles
   }
 
   ul.social-icons {
-    padding: 0 30px 0 30px;
     margin: 10px 0 0 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
   }
 
 
@@ -689,6 +688,8 @@ Tablet Styles
 
   #footlogo {
     width: 70%;
+
+
   }
 
 
@@ -714,11 +715,6 @@ base sizing
   max-width: 1450px;
   width: 90%;
   }
-
-/*------------------------------------------------------------
-font Styles
-------------------------------------------------------------*/
-
 
 
 
@@ -773,11 +769,6 @@ Header styles
     border-radius: 30px;
   }
 
-
-
-
-
-
 /*------------------------------------------------------------
 features styles
 ------------------------------------------------------------*/
@@ -788,72 +779,52 @@ features styles
   }
 
   #underline {
-  width: 100%;
+  width: 75%;
+  margin-bottom: 40px;
   }
 
-  div.features-wrapper {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;
-  }
-
-  div.features-wrapper {
-    margin-top: 80px;
-    margin-bottom: 40px;
-  }
-
-  p.feature-content {
-    text-align: center;
-  }
-
-  .main-content {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-
-  div.feature-description {
+  p.main-content {
+  text-align: center;
   margin: 20px;
-  width: 45%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  padding: 20px;
   }
 
-  h3 {
+  div.features-wrapper {
+    flex-flow: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  div.features-wrapper figure {
+    margin: 10px;
+  }
+
+  div.features-wrapper h3 {
+    margin: 10px;
+  }
+
+  div.features-wrapper p.feature-content {
+    margin: 10px;
     text-align: center;
   }
-
-  .feature-content {
-  text-align: left;
-  margin-top: 20px;
-  }
-
-
 
 
 /*------------------------------------------------------------
 aside styles
 ------------------------------------------------------------*/
 
-  aside div.content-wrapper {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
 
 
   .financialcrm {
-    margin: 80px 0 40px 0;
+    margin: 80px 0 0 0;
   }
 
   .advancedcrm figure {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 30px;
   }
 
@@ -864,28 +835,45 @@ aside styles
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
-
   }
 
-  .advanced {
-
-
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-basis: 33%;
-
-  }
-
-  .advanced h3 {
-    margin: 20px;
+  div.advanced {
+    width: 60%;
+    display: inline-block;
   }
 
 
 
+  p.advanced-feature {
+    margin: 30px;
+    text-align: center;
+
+  }
+
+/*------------------------------------------------------------
+footer styles
+------------------------------------------------------------*/
 
 
+  div.footer-info {
 
+    width: 65%;
+
+  }
+
+
+  ul.social-icons {
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+
+  p.copyright {
+    align-items: center;
+    font-size: small;
+    margin: 30px;
+
+  }
 
 
 
